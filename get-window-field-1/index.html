@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    a{
+      text-decoration: none;
+      display: inline-block;
+    }
+    button{
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <a target="_blank" href="https://juejin.cn/user/2409752520033768/posts">
+    <button>掘金</button>
+  </a>
+  <a target="_blank" href="https://guoqiankun.blog.csdn.net/">
+    <button>CSDN</button>
+  </a>
+  <a target="_blank" href="https://gqk-extension.netlify.app/">
+    <button>Chrome 浏览器插件开发实践指南 - Netlify</button>
+  </a>
+  <a target="_blank" href="https://18055975947.github.io/extension/">
+    <button>Chrome 浏览器插件开发实践指南 - Github</button>
+  </a>
+  <hr />
+</body>
+<script>
+  window.MyBlog = {
+    juejin: 'https://juejin.cn/user/2409752520033768/posts',
+    csdn: 'https://guoqiankun.blog.csdn.net/',
+    'chrome-blog': {
+      netlify: 'https://gqk-extension.netlify.app/',
+      github: 'https://18055975947.github.io/extension/'
+    }
+  }
+</script>
+</html>
